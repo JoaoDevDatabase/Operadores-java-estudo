@@ -8,12 +8,17 @@ public class Operadores {
         // numero = numero + 2;
 
         numero = numero + 2;
-        numero++; // Quando eu falo ( numero ++), tambem estou falando que o meu valor
-        // Atribuido a uma variavel, ele e somado a mais 1,
-        // Exemplo: numero = numero + 1;
+        numero++; // isto e uma representação um operador unário
+        // ele soma o meu número +1
+
+        int numero2 = 5;
+        numero2 = -numero2;// aqui eu quis representar que o meu número ele e negativo
+        numero2++;
 
         System.out.printf("O resultado e : %d%n", numero);
-        // automaticamente o meu numero ele vai ser somado a mais um
+        System.out.printf("O resultado e : %d%n", -numero);// Aqui eu coloco um sinal de menos que
+        // me mostra um valor negativo
+        System.out.printf("O resultado e : %d%n", numero2);
 
     }
 }

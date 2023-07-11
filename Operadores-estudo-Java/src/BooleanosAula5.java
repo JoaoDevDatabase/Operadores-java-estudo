@@ -13,6 +13,8 @@ public class BooleanosAula5 {
 
         d = 6;
 
+        boolean numeros = c == d;
+
         if (a <= b) {
             System.out.printf("Este número não e maior que %d%n: ", b);
         } else {
@@ -30,6 +32,7 @@ public class BooleanosAula5 {
         System.out.println(resultado);
         System.out.println(resultado1);
         System.out.println(resultado2);
+        System.out.println("O meu A e igual a B ? : " + numeros);
     }
 }
 /*
